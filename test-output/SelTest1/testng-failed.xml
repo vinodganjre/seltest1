@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SelTest1]">
+  <listeners>
+    <listener class-name="com.seltest1.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Selenium Test(failed)">
+    <parameter name="browser" value="safari"/>
+    <classes>
+      <class name="com.seltest1.testCases.TC_LoginDDT_002">
+        <methods>
+          <include name="loginDDT" invocation-numbers="1 3 4 5"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.seltest1.testCases.TC_LoginDDT_002 -->
+    </classes>
+  </test> <!-- Selenium Test(failed) -->
+</suite> <!-- Failed suite [SelTest1] -->

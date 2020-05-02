@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SelTest1" duration-ms="4170" started-at="2020-05-02T00:09:50 BST" finished-at="2020-05-02T00:09:54 BST">
+    <groups>
+    </groups>
+    <test name="Selenium Test" duration-ms="4170" started-at="2020-05-02T00:09:50 BST" finished-at="2020-05-02T00:09:54 BST">
+      <class name="com.seltest1.testCases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.seltest1.testCases.TC_LoginTest_001@59fa1d9b]" name="setup" is-config="true" duration-ms="2875" started-at="2020-05-02T00:09:50 BST" finished-at="2020-05-02T00:09:53 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.seltest1.testCases.TC_LoginTest_001@59fa1d9b]" name="loginTest" duration-ms="1029" started-at="2020-05-02T00:09:53 BST" finished-at="2020-05-02T00:09:54 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.seltest1.testCases.TC_LoginTest_001@59fa1d9b]" name="tearDown" is-config="true" duration-ms="86" started-at="2020-05-02T00:09:54 BST" finished-at="2020-05-02T00:09:54 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.seltest1.testCases.TC_LoginTest_001 -->
+    </test> <!-- Selenium Test -->
+  </suite> <!-- SelTest1 -->
+</testng-results>

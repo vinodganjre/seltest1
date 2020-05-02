@@ -1,0 +1,7 @@
+com/seltest1/utilities/Reporting.class
+com/seltest1/utilities/XLUtils.class
+com/seltest1/utilities/ReadConfig.class
+com/seltest1/testCases/BaseClass.class
+com/seltest1/testCases/TC_LoginDDT_002.class
+com/seltest1/testCases/TC_LoginTest_001.class
+com/seltest1/pageObject/LoginPage.class
